@@ -100,5 +100,10 @@ return [arrayProduct[0], messageArrayProduct];
 
 // Here is the test for multiplyArray(); uncomment it to run it
 testMultiplyArray(2,3,4);
-
+document.getElementById('sum').innerHTML = sum(4,7)[1];
+document.getElementById('multiply').innerHTML = multiply(4,7)[1];
+document.getElementById('sumAndMultiply').innerHTML = sumAndMultiply(43,7,6)[2];
+document.getElementById('sumAndMultiply2').innerHTML = sumAndMultiply(43,7,6)[3];
+document.getElementById('sumArray').innerHTML = sumArray(testArray)[1];
+document.getElementById('multiplyArray').innerHTML = multiplyArray(testArray)[1];
 // Once you get the test passing, do an a-c-p cycle and synchronize the code between GitHub and your laptop. You're done! Submit the link to the repo following the instructions in Canvas.
