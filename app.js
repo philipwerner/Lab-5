@@ -73,9 +73,8 @@ var testArray = [2,3,4]; //eslint-disable-line
 
 function sumArray(testArray){ //eslint-disable-line
 var firstSum = sum(testArray[0], testArray[1]);
-var secondSum = sum(testArray[2], 0);
-var arraySum = sum(firstSum, secondSum);
-var arrayMessage = testArray + ' was passed in as an array of numbers, and ' + arraySum + ' is their sum.';
+var arraySum = sum(firstSum[0], testArray[2]);
+var arrayMessage = testArray + ' was passed in as an array of numbers, and ' + arraySum[0] + ' is their sum.';
 return [sum, arrayMessage];
 }
 
